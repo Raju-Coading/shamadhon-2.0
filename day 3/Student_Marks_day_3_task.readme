@@ -1,0 +1,22 @@
+# 🎓 Student Marks Calculator (Beginner Friendly)
+
+This is a **simple JavaScript project** for beginners.  
+It uses **Arrays & Objects** to store student details and calculates:
+
+- ✅ Total Marks  
+- ✅ Average Marks  
+- ✅ Grade  
+
+---
+
+## 📂 Project Files
+- **marksCalculatorSimple.js** → Beginner-friendly code using arrays & objects.  
+
+---
+
+## ⚡ How to Run
+1. Install **Node.js** (if not already installed).  
+2. Open your terminal / command prompt.  
+3. Run the file using:
+   ```bash
+   node marksCalculatorSimple.js
