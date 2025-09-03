@@ -105,10 +105,6 @@ You need to have [Node.js](https://nodejs.org/en/download/) (which includes npm)
 ### Installation & Setup
 
 1.  **Clone the repository:**
-    ```sh
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
-    ```
 
 2.  **Set up the Backend Server:**
     Open a terminal and navigate to the `server` directory.
