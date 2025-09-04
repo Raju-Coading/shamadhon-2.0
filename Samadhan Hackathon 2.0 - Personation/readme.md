@@ -1,10 +1,13 @@
 
+
 # 🎓 AI in NDA Exam Preparation
 
 > An AI-powered intelligent study companion designed to help NDA aspirants with **personalised learning**, **mock tests**, and **progress tracking**.  
 > Built as part of **National Hackathon – Samadhan 2.0** by Team **Legacy**.
 
 ---
+
+<img width="852" height="426" alt="Screenshot 2025-09-04 233031" src="https://github.com/user-attachments/assets/4b975349-5a69-4874-b316-53d68a6c1e17" />
 
 ## 📽️ Demo Video
 [![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/RlrUmxh4nPA)
