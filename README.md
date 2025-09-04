@@ -5,5 +5,3 @@ This repository contains all my **daily tasks, practice codes, and mini-projects
 
 ---
 
-## 📂 Repository Structure
-
