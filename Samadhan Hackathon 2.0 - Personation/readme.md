@@ -1,3 +1,3 @@
 
-[Watch the video](https://www.youtube.com/watch?v=E920Yx737ZLnyUkT)
+[Watch the video](https://youtu.be/omiJi9vy8Wc?si=2JQMsb0pRPqTkP3b)
 
