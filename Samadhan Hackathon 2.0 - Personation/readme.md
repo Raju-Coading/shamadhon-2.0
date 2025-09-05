@@ -13,7 +13,7 @@
 <img width="852" height="426" alt="Screenshot 2025-09-04 233031" src="https://github.com/user-attachments/assets/4b975349-5a69-4874-b316-53d68a6c1e17" />
 
 ## 📽️ Preparation Video
-[![Watch the video](https://youtu.be/AuybZlYXBTY?si=tuR4OXDPKXVrel5O)
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/AuybZlYXBTY)
 
 ---
 
