@@ -13,8 +13,8 @@ This repository contains all my **daily tasks, practice codes, and mini-projects
 ## 📽️ Preparation Video  (click on link)
 [![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/AuybZlYXBTY)
 
+<img width="827" height="388" alt="Screenshot 2025-09-05 222910" src="https://github.com/user-attachments/assets/bc1a3b30-3141-42c4-ac0a-6a6af52a7eef" />
 
-<img width="852" height="426" alt="Screenshot 2025-09-04 233031" src="https://github.com/user-attachments/assets/4b975349-5a69-4874-b316-53d68a6c1e17" />
 
 ## 📽️ Preparation Video  (click on link)
 [![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/AuybZlYXBTY)
