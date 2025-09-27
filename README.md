@@ -1,98 +1,159 @@
-# 🚀 Shamadhon Hackathon Repository
+🎓 Re-Research AI Agent
 
-Welcome to my **Shamadhon Hackathon** project repo! 🎉  
-This repository contains all my **daily tasks, practice codes, and mini-projects** created during the hackathon.
+An AI-powered educational and research chatbot built with LangGraph, Streamlit, and multiple LLMs.
+Designed for PhD researchers, UPSC/JEE/CDS aspirants, and students, it can explore topics, fetch research papers, summarize documents, generate insights, and even create structured research drafts in PDF format.
 
-
-# 🎓 AI in NDA Exam Preparation
-
-> An AI-powered intelligent study companion designed to help NDA aspirants with **personalised learning**, **mock tests**, and **progress tracking**.  
-> Built as part of **National Hackathon – Samadhan 2.0** by Team **Legacy**.
-
----
 ## 📽️ Preparation Video  (click on link)
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/AuybZlYXBTY)
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/3WMwYcwWpH0)
 
-<img width="827" height="388" alt="Screenshot 2025-09-05 222910" src="https://github.com/user-attachments/assets/bc1a3b30-3141-42c4-ac0a-6a6af52a7eef" />
 
 
 ## 📽️ Preparation Video  (click on link)
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/AuybZlYXBTY)
-
----
-
-## 🚀 Problem Statement
-NDA aspirants face challenges with:
-- ❌ Unpersonalised preparation methods  
-- ❌ Difficulty in identifying weaknesses  
-- ❌ Lack of personalised feedback  
-- ❌ Ineffective progress tracking  
-
----
-
-## 💡 Our Vision
-To build an **AI-driven chatbot mentor** that delivers a highly **personalised, efficient, and adaptive study experience** for NDA aspirants.
-
----
-
-## 🛠️ Solution Concept: The Intelligent Study Companion
-Key features of our AI chatbot:
-
-- 📝 **AI Notepad** – Understands and analyses student notes.  
-- 🧾 **Personalised Mock Tests** – Creates tests based on individual learning patterns.  
-- 📊 **Descriptive Reports** – Detailed insights into weak topics.  
-- 📈 **Progress Chart** – Visualises daily improvement.  
-- 🤖 **24/7 Assistance** – Always available for student queries.  
-- ⚡ **Automated Task Handling** – Saves time by generating practice material automatically.  
-- 🎯 **Personalised Learning Paths** – Adjusts dynamically to each student’s progress.  
-
----
-
-## 🧑‍🎓 User Journey
-1. ✍️ Student inputs notes.  
-2. 🤖 AI analyses content.  
-3. 📝 AI generates tailored mock tests.  
-4. 🔎 Detailed feedback provided.  
-5. 📈 Student tracks progress via charts.  
-
----
-
-## 🔐 Data & Privacy
-- Student data is gathered only from notes and test interactions.  
-- Robust **encryption** ensures data safety.  
-- Transparent **privacy policy** protects personal information.  
-
----
-
-## 🧩 Tech Stack
-- **NLP (Natural Language Processing)** – For understanding student notes & queries.  
-- **Machine Learning** – For analysing test results and adapting learning paths.  
-- **Data Analytics** – For progress reports & performance charts.  
-
----
-
-## 📅 Implementation Plan
-1. **Phase 1:** Core chatbot development  
-2. **Phase 2:** AI model integration (NLP + ML)  
-3. **Phase 3:** Reporting & visualisation tools  
-
----
-
-## 📊 Impact & Metrics
-- 🎯 **90% accuracy** in identifying weaknesses  
-- 📈 **20% improvement** in student scores  
-- 🤝 **75% user engagement** across key features  
-
----
-
-## 👨‍💻 Team Legacy
-- **Team Leader:** Raju Meena  
-- **Institute:** Sagar Institute of Science and Technology  
-- **Date of Submission:** 05/09/2025  
-
----
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/3WMwYcwWpH0)
 
 
 
+🚀 Features
+
+🤖 Multi-LLM Support (choose role for your assistant):
+
+Deep Research → Groq LLM
+
+Critical Thinking → OpenRouter LLM
+
+Current Knowledge → Google Gemini
+
+Offline Mentor → Ollama
+
+📚 Research & Learning Tools:
+
+🔍 ArXiv paper search
+
+🌍 Wikipedia summaries
+
+📰 Latest news headlines
+
+➗ Math solver for equations
+
+📄 PDF reader (upload your own research docs)
+
+📝 Export research drafts into polished PDF
+
+🎤 Voice Input & Output:
+
+🎙 Record voice queries (speech-to-text via Groq Whisper)
+
+🔊 Get answers in speech (TTS) via ElevenLabs or gTTS
+
+📂 Document Support:
+
+Upload PDFs → LLM summarizes or grounds responses in your document
+
+Create embeddings with Google Generative AI embeddings for retrieval
+
+🎨 Attractive Streamlit Frontend:
+
+Sidebar settings for provider, model, and voice
+
+Live chat interface with message history
+
+Auto PDF download button for last research response
+
+🛠️ Tech Stack
+
+LangGraph → Workflow & state management
+
+LangChain → LLM + tool integrations
+
+Streamlit → Frontend (UI for chat, uploads, settings)
+
+Groq Whisper → Speech-to-text
+
+ElevenLabs / gTTS → Text-to-speech
+
+Google Generative AI Embeddings → Vector search for documents
+
+ReportLab → PDF generation
+
+📂 Project Structure
+├── app.py                 # Backend: LangGraph workflow + tools
+├── streamlit_app.py       # Frontend UI (Streamlit)
+├── audio_input.py         # Speech-to-text utilities
+├── tts.py                 # Text-to-speech utilities
+├── uploads/               # Uploaded PDFs
+├── requirements.txt       # Dependencies
+└── README.md              # Project docs
+
+⚡ Installation
+
+Clone repo
+
+git clone https://github.com/yourusername/eduresearch-ai.git
+cd eduresearch-ai
 
 
+Install dependencies
+
+pip install -r requirements.txt
+
+
+Set environment variables (in .env)
+
+GOOGLE_API_KEY=your_google_key
+GROQ_API_KEY=your_groq_key
+OPENROUTER_API_KEY=your_openrouter_key
+OLLAMA_BASE_URL=http://localhost:11434
+ELEVENLABS_API_KEY=your_elevenlabs_key
+NEWS_API_KEY=your_newsapi_key
+
+
+Run Streamlit app
+
+streamlit run streamlit_app.py
+
+🎭 Demo Workflow
+
+Upload a PDF or pick a model.
+
+Ask: “Summarize quantum ML research papers.”
+
+Bot responds step-by-step:
+
+Suggests subtopics
+
+Shows recent ArXiv papers
+
+Summarizes uploaded PDF
+
+Builds structured draft
+
+Offers to export PDF
+
+Optionally → interact via voice and hear answers back 🔊.
+
+💡 Use Cases
+
+📖 UPSC/CDS/JEE aspirants → quick summaries & explanations
+
+🎓 PhD researchers → topic discovery, related papers, draft building
+
+📰 Students & teachers → simplified learning with verified sources
+
+👩‍💻 Hackathons → showcase cutting-edge AI research tools
+
+✨ Future Improvements
+
+✅ Real-time speech streaming (word-by-word TTS)
+
+✅ Add quiz/question generator for exam prep
+
+✅ Multi-document RAG (compare across PDFs)
+
+✅ Save + load previous research sessions
+
+🏆 Hackathon Value
+
+This project combines LLMs, tools, and interactive learning into one assistant.
+It’s engaging, educational, and practical → perfect for students, researchers, and lifelong learners.
+
+🚀 Built with ❤️ for learning & research.
